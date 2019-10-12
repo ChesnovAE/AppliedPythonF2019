@@ -28,3 +28,5 @@ if __name__ == '__main__':
         print('Файл не валиден')
     except (UnicodeError, SyntaxError, AttributeError, TypeError, IndexError):
         print('Формат не валиден')
+    else:
+        table.print_table()
